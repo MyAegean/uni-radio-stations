@@ -12,7 +12,7 @@ Catalogue for College/University Radio Stations
 
 <p>This is a side-project of My.Aegean.gr initiative of the University of the Aegean, Greece. We try to gather info and collaborate in building a rich list of College/University Radio Stations. This is a volunteering project with a non-profit scope.</p>
 
-<p><img src="MYAEGEAN_student_radios_map17b_2_edit_w424-min.png" alt="Map of College/University Radios" width="424" height="251"></p>
+<p><img src="Map_StudentRadios_GR-CY_2018-10-07_capturEdt630_m-min.png" alt="Map of College/University Radios" width="630" height="440"></p>
 
 <p>Station list builds a webpage of a Catalogue and a Maps embeddable webpage as well. We also build some custom mini-players for creating a webring of all radio stations, offering an easy access for listeners to get to them. We try to keep information up-to-date and accurate, for everyone to access it and we hope we can expand the list of stations for other countries as well. Feel free to help us! Thank you! :)</p>
 
