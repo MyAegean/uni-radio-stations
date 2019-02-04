@@ -1,0 +1,148 @@
+<?xml version="1.0" standalone="yes"?>
+<rhythmdb version="2.0">
+
+<entry type="iradio">
+	<title>(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος</title>
+	<genre>College Radio</genre>
+	<location>http://195.251.162.77:8000/stream</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(Escapula) Πανεπιστημίου Αιγαίου - Ρόδος</title>
+	<genre>College Radio</genre>
+	<location>http://radio.myaegean.gr/escapula.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(Λόφος) Πανεπιστημίου Αιγαίου - Λέσβος</title>
+	<genre>College Radio</genre>
+	<location>http://radio.myaegean.gr/lofosradio.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(DPSDradio) Πανεπιστημίου Αιγαίου - Σύρος</title>
+	<genre>College Radio</genre>
+	<location>http://radio.myaegean.gr/dpsdradio.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(UoC radio) Πανεπιστημίου Κρήτης</title>
+	<genre>College Radio</genre>
+	<location>http://rs.radio.uoc.gr:8000/uoc_128.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(Ράδιο Ένταση) Πολυτεχνείου Κρήτης</title>
+	<genre>College Radio</genre>
+	<location>http://147.27.23.40:8000/;stream.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(Studio FM1) Σπουδαστών Τ.Ε.Ι. Ηρακλείου</title>
+	<genre>College Radio</genre>
+	<location>http://fm1.teicrete.gr:8000/live</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(UPFM) Πανεπιστημίου Πάτρας</title>
+	<genre>College Radio</genre>
+	<location>http://150.140.147.131:8000/;upfm.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(ΡαΣΠΙ) Πανεπιστημίου Ιωαννίνων</title>
+	<genre>College Radio</genre>
+	<location>http://195.130.117.45:8000/stream</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(SPAM radio) Πάντειο Πανεπιστήμιο</title>
+	<genre>College Radio</genre>
+	<location>http://eco.onestreaming.com:8612/;panteion.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη</title>
+	<genre>College Radio</genre>
+	<location>http://192.99.35.215:5112/stream</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(ROFA radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Αλεξανδρούπολη</title>
+	<genre>College Radio</genre>
+	<location>http://live.webhosting4u.gr:8013/live</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(eMMEis Radio) Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης</title>
+	<genre>College Radio</genre>
+	<location>http://iphone-streaming.ustream.tv/uhls/jewqFGzXvLE/streams/live/iphone/playlist.m3u8</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(yUTH Radio) Πανεπιστήμιο Θεσσαλίας</title>
+	<genre>College Radio</genre>
+	<location>http://airtime.yuth-radio.com:8000/yuthstream</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(Just Radio) ΤΕΙ Δυτικής Μακεδονίας</title>
+	<genre>College Radio</genre>
+	<location>http://195.130.80.64:8080/stream</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(Webradio ΕΑΠ) Ελληνικό Ανοικτό Πανεπιστήμιο</title>
+	<genre>College Radio</genre>
+	<location>http://webradio.eap.gr:3949/demostream</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(UCY voice) Πανεπιστημίου Κύπρου</title>
+	<genre>College Radio</genre>
+	<location>http://69.175.94.98:8308/;ucyvoice.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου</title>
+	<genre>College Radio</genre>
+	<location>http://162.13.25.174/cut-radio.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+</rhythmdb>

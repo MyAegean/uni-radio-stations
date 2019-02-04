@@ -1,0 +1,54 @@
+#EXTM3U
+#EXTINF:-1,(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος
+http://195.251.162.77:8000/stream
+
+#EXTINF:-1,(Escapula) Πανεπιστημίου Αιγαίου - Ρόδος
+http://radio.myaegean.gr/escapula.mp3
+
+#EXTINF:-1,(Λόφος) Πανεπιστημίου Αιγαίου - Λέσβος
+http://radio.myaegean.gr/lofosradio.mp3
+
+#EXTINF:-1,(DPSDradio) Πανεπιστημίου Αιγαίου - Σύρος
+http://radio.myaegean.gr/dpsdradio.mp3
+
+#EXTINF:-1,(UoC radio) Πανεπιστημίου Κρήτης
+http://rs.radio.uoc.gr:8000/uoc_128.mp3
+
+#EXTINF:-1,(Ράδιο Ένταση) Πολυτεχνείου Κρήτης
+http://147.27.23.40:8000/;stream.mp3
+
+#EXTINF:-1,(Studio FM1) Σπουδαστών Τ.Ε.Ι. Ηρακλείου
+http://fm1.teicrete.gr:8000/live
+
+#EXTINF:-1,(UPFM) Πανεπιστημίου Πάτρας
+http://150.140.147.131:8000/;upfm.mp3
+
+#EXTINF:-1,(ΡαΣΠΙ) Πανεπιστημίου Ιωαννίνων
+http://195.130.117.45:8000/stream
+
+#EXTINF:-1,(SPAM radio) Πάντειο Πανεπιστήμιο
+http://eco.onestreaming.com:8612/;panteion.mp3
+
+#EXTINF:-1,(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη
+http://192.99.35.215:5112/stream
+
+#EXTINF:-1,(ROFA radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Αλεξανδρούπολη
+http://live.webhosting4u.gr:8013/live
+
+#EXTINF:-1,(eMMEis Radio) Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης
+http://iphone-streaming.ustream.tv/uhls/jewqFGzXvLE/streams/live/iphone/playlist.m3u8
+
+#EXTINF:-1,(yUTH Radio) Πανεπιστήμιο Θεσσαλίας
+http://airtime.yuth-radio.com:8000/yuthstream
+
+#EXTINF:-1,(Just Radio) ΤΕΙ Δυτικής Μακεδονίας
+http://195.130.80.64:8080/stream
+
+#EXTINF:-1,(Webradio ΕΑΠ) Ελληνικό Ανοικτό Πανεπιστήμιο
+http://webradio.eap.gr:3949/demostream
+
+#EXTINF:-1,(UCY voice) Πανεπιστημίου Κύπρου
+http://69.175.94.98:8308/;ucyvoice.mp3
+
+#EXTINF:-1,(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου
+http://162.13.25.174/cut-radio.mp3
