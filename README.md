@@ -19,7 +19,7 @@ Catalogue for College/University Radio Stations
 
 ### Easy listening on any media player via ready-to-use playlist-type formats
 
-<p>Station list is also exported to a variety of formats, such as playlist files (.PLS, .M33U, XSPF) or they are available for listening on supported media players (client applications) that can support streams from Icecast (YP) Stream Directory too.</p>
+<p>Station list is also exported to a variety of formats, such as playlist files (.PLS, .M33U, .XSPF) or they are available for listening on supported media players (client applications) that can support streams from Icecast (YP) Stream Directory too.</p>
 
 <p><img src="Rhythmbox_Tutorial19_StudentRadios_MyAegean_exprt-playlist-formats.png" alt="export playlist formats" width="694" height="249"></p>
 
