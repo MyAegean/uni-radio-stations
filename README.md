@@ -16,6 +16,13 @@ Catalogue for College/University Radio Stations
 
 <p>Station list builds a webpage of a Catalogue and a Maps embeddable webpage as well. We also build some custom mini-players for creating a webring of all radio stations, offering an easy access for listeners to get to them. We try to keep information up-to-date and accurate, for everyone to access it and we hope we can expand the list of stations for other countries as well. Feel free to help us! Thank you! :)</p>
 
+
+### Easy listening on any media player via ready-to-use playlist-type formats
+
+<p>Station list is also exported to a variety of formats, such as playlist files (.PLS, .M33U, XSPF) or they are available for listening on supported media players (client applications) that can support streams from Icecast (YP) Stream Directory too.</p>
+
+<p><img src="Rhythmbox_Tutorial19_StudentRadios_MyAegean_exprt-playlist-formats.png" alt="export playlist formats" width="694" height="249"></p>
+
 <p><br/></p>
 
 ---------------------------------------
