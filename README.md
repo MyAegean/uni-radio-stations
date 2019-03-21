@@ -31,3 +31,10 @@ Catalogue for College/University Radio Stations
 ## About MyAegean
 
 <p>The idea of <em>"my Aegean"</em> originated in 2002 with a group of students from the University of the Aegean. The aim of this initiative was to create a network portal for the whole of the Aegean University community by utilising any available technology.<br>Our aspiration is to create <strong>a vehicle which will encourage and promote direct, collective and qualitative communication and information exchange, without geographical restrictions, among all members of the Aegean community</strong> (students, academic and research staff, as well as administrative, technical or other personnel). <em>myAegean</em> is to serve as a common point of reference, as a scheme which will stimulate and facilitate interaction among all the members of the university.</p>
+
+
+
+
+## Support
+
+[![Liberapay](https://libreops.cc/static/img/liberapay.svg)](https://liberapay.com/MyAegean/donate)
