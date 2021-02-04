@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1,(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος
-http://195.251.162.77:8000/stream
+http://195.251.162.25:8000/stream
 
 #EXTINF:-1,(Escapula) Πανεπιστημίου Αιγαίου - Ρόδος
 http://radio.myaegean.gr/escapula.mp3
@@ -11,7 +11,7 @@ http://radio.myaegean.gr/lofosradio.mp3
 #EXTINF:-1,(DPSDradio) Πανεπιστημίου Αιγαίου - Σύρος
 http://radio.myaegean.gr/dpsdradio.mp3
 
-#EXTINF:-1,(UoC radio) Πανεπιστημίου Κρήτης
+#EXTINF:-1,(UoC rastapank) Πανεπιστημίου Κρήτης - Ηράκλειο
 http://rs.radio.uoc.gr:8000/uoc_128.mp3
 
 #EXTINF:-1,(Ράδιο Ένταση) Πολυτεχνείου Κρήτης
@@ -48,7 +48,7 @@ http://195.130.80.64:8080/stream
 http://webradio.eap.gr:3949/demostream
 
 #EXTINF:-1,(UCY voice) Πανεπιστημίου Κύπρου
-http://69.175.94.98:8308/;ucyvoice.mp3
+http://108.163.223.242:8340/;ucyvoice.mp3
 
 #EXTINF:-1,(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου
 http://162.13.25.174/cut-radio.mp3

@@ -4,7 +4,7 @@
 	
 		<track>
 			<title>(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος</title>
-			<location>http://195.251.162.77:8000/stream</location>
+			<location>http://195.251.162.25:8000/stream</location>
 		</track>	  
 	
 		<track>
@@ -23,7 +23,7 @@
 		</track>	  
 	
 		<track>
-			<title>(UoC radio) Πανεπιστημίου Κρήτης</title>
+			<title>(UoC rastapank) Πανεπιστημίου Κρήτης - Ηράκλειο</title>
 			<location>http://rs.radio.uoc.gr:8000/uoc_128.mp3</location>
 		</track>	  
 	
@@ -84,7 +84,7 @@
 	
 		<track>
 			<title>(UCY voice) Πανεπιστημίου Κύπρου</title>
-			<location>http://69.175.94.98:8308/;ucyvoice.mp3</location>
+			<location>http://108.163.223.242:8340/;ucyvoice.mp3</location>
 		</track>	  
 	
 		<track>

@@ -4,7 +4,7 @@
 <entry type="iradio">
 	<title>(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος</title>
 	<genre>College Radio</genre>
-	<location>http://195.251.162.77:8000/stream</location>
+	<location>http://195.251.162.25:8000/stream</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -34,7 +34,7 @@
   
 
 <entry type="iradio">
-	<title>(UoC radio) Πανεπιστημίου Κρήτης</title>
+	<title>(UoC rastapank) Πανεπιστημίου Κρήτης - Ηράκλειο</title>
 	<genre>College Radio</genre>
 	<location>http://rs.radio.uoc.gr:8000/uoc_128.mp3</location>
 	<media-type>application/octet-stream</media-type>
@@ -132,7 +132,7 @@
 <entry type="iradio">
 	<title>(UCY voice) Πανεπιστημίου Κύπρου</title>
 	<genre>College Radio</genre>
-	<location>http://69.175.94.98:8308/;ucyvoice.mp3</location>
+	<location>http://108.163.223.242:8340/;ucyvoice.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   

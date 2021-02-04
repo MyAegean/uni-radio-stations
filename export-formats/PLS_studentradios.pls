@@ -1,6 +1,6 @@
 [playlist]
 
-File1=http://195.251.162.77:8000/stream
+File1=http://195.251.162.25:8000/stream
 Title1=(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος
 Length1=-1
 
@@ -17,7 +17,7 @@ Title4=(DPSDradio) Πανεπιστημίου Αιγαίου - Σύρος
 Length4=-1
 
 File5=http://rs.radio.uoc.gr:8000/uoc_128.mp3
-Title5=(UoC radio) Πανεπιστημίου Κρήτης
+Title5=(UoC rastapank) Πανεπιστημίου Κρήτης - Ηράκλειο
 Length5=-1
 
 File6=http://147.27.23.40:8000/;stream.mp3
@@ -64,7 +64,7 @@ File16=http://webradio.eap.gr:3949/demostream
 Title16=(Webradio ΕΑΠ) Ελληνικό Ανοικτό Πανεπιστήμιο
 Length16=-1
 
-File17=http://69.175.94.98:8308/;ucyvoice.mp3
+File17=http://108.163.223.242:8340/;ucyvoice.mp3
 Title17=(UCY voice) Πανεπιστημίου Κύπρου
 Length17=-1
 
