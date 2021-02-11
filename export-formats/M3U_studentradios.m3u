@@ -14,11 +14,17 @@ http://radio.myaegean.gr/dpsdradio.mp3
 #EXTINF:-1,(UoC rastapank) Πανεπιστημίου Κρήτης - Ηράκλειο
 http://rs.radio.uoc.gr:8000/uoc_128.mp3
 
-#EXTINF:-1,(Ράδιο Ένταση) Πολυτεχνείου Κρήτης
+#EXTINF:-1,(Ράδιο Ένταση) Πολυτεχνείου Κρήτης - Χανιά
 http://147.27.23.40:8000/;stream.mp3
 
-#EXTINF:-1,(Studio FM1) Σπουδαστών Τ.Ε.Ι. Ηρακλείου
+#EXTINF:-1,(Studio FM1) Ελληνικού Μεσογειακού Πανεπιστημίου - Ηράκλειο
 http://fm1.teicrete.gr:8000/live
+
+#EXTINF:-1,(RatFM) Ελληνικού Μεσογειακού Πανεπιστημίου - Χανιά
+http://198.7.58.248:10078/;ratfm.mp3
+
+#EXTINF:-1,(ΜατζόΡε FM) Πανεπιστημίου Κρήτης - Ρέθυμνο
+http://rs.radio.uoc.gr:8000/matzore_64.mp3
 
 #EXTINF:-1,(UPFM) Πανεπιστημίου Πάτρας
 http://150.140.147.131:8000/;upfm.mp3

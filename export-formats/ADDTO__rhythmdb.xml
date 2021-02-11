@@ -42,7 +42,7 @@
   
 
 <entry type="iradio">
-	<title>(Ράδιο Ένταση) Πολυτεχνείου Κρήτης</title>
+	<title>(Ράδιο Ένταση) Πολυτεχνείου Κρήτης - Χανιά</title>
 	<genre>College Radio</genre>
 	<location>http://147.27.23.40:8000/;stream.mp3</location>
 	<media-type>application/octet-stream</media-type>
@@ -50,9 +50,25 @@
   
 
 <entry type="iradio">
-	<title>(Studio FM1) Σπουδαστών Τ.Ε.Ι. Ηρακλείου</title>
+	<title>(Studio FM1) Ελληνικού Μεσογειακού Πανεπιστημίου - Ηράκλειο</title>
 	<genre>College Radio</genre>
 	<location>http://fm1.teicrete.gr:8000/live</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(RatFM) Ελληνικού Μεσογειακού Πανεπιστημίου - Χανιά</title>
+	<genre>College Radio</genre>
+	<location>http://198.7.58.248:10078/;ratfm.mp3</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(ΜατζόΡε FM) Πανεπιστημίου Κρήτης - Ρέθυμνο</title>
+	<genre>College Radio</genre>
+	<location>http://rs.radio.uoc.gr:8000/matzore_64.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   

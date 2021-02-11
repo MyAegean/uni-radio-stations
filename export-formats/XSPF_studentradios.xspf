@@ -28,13 +28,23 @@
 		</track>	  
 	
 		<track>
-			<title>(Ράδιο Ένταση) Πολυτεχνείου Κρήτης</title>
+			<title>(Ράδιο Ένταση) Πολυτεχνείου Κρήτης - Χανιά</title>
 			<location>http://147.27.23.40:8000/;stream.mp3</location>
 		</track>	  
 	
 		<track>
-			<title>(Studio FM1) Σπουδαστών Τ.Ε.Ι. Ηρακλείου</title>
+			<title>(Studio FM1) Ελληνικού Μεσογειακού Πανεπιστημίου - Ηράκλειο</title>
 			<location>http://fm1.teicrete.gr:8000/live</location>
+		</track>	  
+	
+		<track>
+			<title>(RatFM) Ελληνικού Μεσογειακού Πανεπιστημίου - Χανιά</title>
+			<location>http://198.7.58.248:10078/;ratfm.mp3</location>
+		</track>	  
+	
+		<track>
+			<title>(ΜατζόΡε FM) Πανεπιστημίου Κρήτης - Ρέθυμνο</title>
+			<location>http://rs.radio.uoc.gr:8000/matzore_64.mp3</location>
 		</track>	  
 	
 		<track>
