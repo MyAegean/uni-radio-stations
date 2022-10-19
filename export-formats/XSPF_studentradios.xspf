@@ -4,7 +4,7 @@
 	
 		<track>
 			<title>(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος</title>
-			<location>http://195.251.162.25:8000/stream</location>
+			<location>http://195.251.162.74:8000/stream</location>
 		</track>	  
 	
 		<track>
@@ -58,11 +58,6 @@
 		</track>	  
 	
 		<track>
-			<title>(SPAM radio) Πάντειο Πανεπιστήμιο</title>
-			<location>http://eco.onestreaming.com:8612/;panteion.mp3</location>
-		</track>	  
-	
-		<track>
 			<title>(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη</title>
 			<location>http://192.99.35.215:5112/stream</location>
 		</track>	  
@@ -93,13 +88,18 @@
 		</track>	  
 	
 		<track>
+			<title>(Ράδιο Πάντειον) Πάντειο Πανεπιστήμιο - Αθήνα</title>
+			<location>http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA</location>
+		</track>	  
+	
+		<track>
 			<title>(UCY voice) Πανεπιστημίου Κύπρου</title>
 			<location>http://108.163.223.242:8340/;ucyvoice.mp3</location>
 		</track>	  
 	
 		<track>
 			<title>(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου</title>
-			<location>http://162.13.25.174/cut-radio.mp3</location>
+			<location>http://n0c.radiojar.com/cut-radio</location>
 		</track>	  
 	
 	</trackList>

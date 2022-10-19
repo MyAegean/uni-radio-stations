@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1,(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος
-http://195.251.162.25:8000/stream
+http://195.251.162.74:8000/stream
 
 #EXTINF:-1,(Escapula) Πανεπιστημίου Αιγαίου - Ρόδος
 http://radio.myaegean.gr/escapula.mp3
@@ -32,9 +32,6 @@ http://150.140.147.131:8000/;upfm.mp3
 #EXTINF:-1,(ΡαΣΠΙ) Πανεπιστημίου Ιωαννίνων
 http://195.130.117.45:8000/stream
 
-#EXTINF:-1,(SPAM radio) Πάντειο Πανεπιστήμιο
-http://eco.onestreaming.com:8612/;panteion.mp3
-
 #EXTINF:-1,(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη
 http://192.99.35.215:5112/stream
 
@@ -53,8 +50,11 @@ http://195.130.80.64:8080/stream
 #EXTINF:-1,(Webradio ΕΑΠ) Ελληνικό Ανοικτό Πανεπιστήμιο
 http://webradio.eap.gr:3949/demostream
 
+#EXTINF:-1,(Ράδιο Πάντειον) Πάντειο Πανεπιστήμιο - Αθήνα
+http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA
+
 #EXTINF:-1,(UCY voice) Πανεπιστημίου Κύπρου
 http://108.163.223.242:8340/;ucyvoice.mp3
 
 #EXTINF:-1,(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου
-http://162.13.25.174/cut-radio.mp3
+http://n0c.radiojar.com/cut-radio

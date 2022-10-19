@@ -1,6 +1,6 @@
 [playlist]
 
-File1=http://195.251.162.25:8000/stream
+File1=http://195.251.162.74:8000/stream
 Title1=(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος
 Length1=-1
 
@@ -44,39 +44,39 @@ File11=http://195.130.117.45:8000/stream
 Title11=(ΡαΣΠΙ) Πανεπιστημίου Ιωαννίνων
 Length11=-1
 
-File12=http://eco.onestreaming.com:8612/;panteion.mp3
-Title12=(SPAM radio) Πάντειο Πανεπιστήμιο
+File12=http://192.99.35.215:5112/stream
+Title12=(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη
 Length12=-1
 
-File13=http://192.99.35.215:5112/stream
-Title13=(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη
+File13=http://live.webhosting4u.gr:8013/live
+Title13=(ROFA radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Αλεξανδρούπολη
 Length13=-1
 
-File14=http://live.webhosting4u.gr:8013/live
-Title14=(ROFA radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Αλεξανδρούπολη
+File14=http://iphone-streaming.ustream.tv/uhls/jewqFGzXvLE/streams/live/iphone/playlist.m3u8
+Title14=(eMMEis Radio) Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης
 Length14=-1
 
-File15=http://iphone-streaming.ustream.tv/uhls/jewqFGzXvLE/streams/live/iphone/playlist.m3u8
-Title15=(eMMEis Radio) Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης
+File15=http://airtime.yuth-radio.com:8000/yuthstream
+Title15=(yUTH Radio) Πανεπιστήμιο Θεσσαλίας
 Length15=-1
 
-File16=http://airtime.yuth-radio.com:8000/yuthstream
-Title16=(yUTH Radio) Πανεπιστήμιο Θεσσαλίας
+File16=http://195.130.80.64:8080/stream
+Title16=(Just Radio) ΤΕΙ Δυτικής Μακεδονίας
 Length16=-1
 
-File17=http://195.130.80.64:8080/stream
-Title17=(Just Radio) ΤΕΙ Δυτικής Μακεδονίας
+File17=http://webradio.eap.gr:3949/demostream
+Title17=(Webradio ΕΑΠ) Ελληνικό Ανοικτό Πανεπιστήμιο
 Length17=-1
 
-File18=http://webradio.eap.gr:3949/demostream
-Title18=(Webradio ΕΑΠ) Ελληνικό Ανοικτό Πανεπιστήμιο
+File18=http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA
+Title18=(Ράδιο Πάντειον) Πάντειο Πανεπιστήμιο - Αθήνα
 Length18=-1
 
 File19=http://108.163.223.242:8340/;ucyvoice.mp3
 Title19=(UCY voice) Πανεπιστημίου Κύπρου
 Length19=-1
 
-File20=http://162.13.25.174/cut-radio.mp3
+File20=http://n0c.radiojar.com/cut-radio
 Title20=(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου
 Length20=-1
 
