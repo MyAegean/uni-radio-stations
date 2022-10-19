@@ -4,7 +4,7 @@
 <entry type="iradio">
 	<title>(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος</title>
 	<genre>College Radio</genre>
-	<location>http://195.251.162.25:8000/stream</location>
+	<location>http://195.251.162.74:8000/stream</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -90,14 +90,6 @@
   
 
 <entry type="iradio">
-	<title>(SPAM radio) Πάντειο Πανεπιστήμιο</title>
-	<genre>College Radio</genre>
-	<location>http://eco.onestreaming.com:8612/;panteion.mp3</location>
-	<media-type>application/octet-stream</media-type>
-  </entry>
-  
-
-<entry type="iradio">
 	<title>(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη</title>
 	<genre>College Radio</genre>
 	<location>http://192.99.35.215:5112/stream</location>
@@ -146,6 +138,14 @@
   
 
 <entry type="iradio">
+	<title>(Ράδιο Πάντειον) Πάντειο Πανεπιστήμιο - Αθήνα</title>
+	<genre>College Radio</genre>
+	<location>http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
 	<title>(UCY voice) Πανεπιστημίου Κύπρου</title>
 	<genre>College Radio</genre>
 	<location>http://108.163.223.242:8340/;ucyvoice.mp3</location>
@@ -156,7 +156,7 @@
 <entry type="iradio">
 	<title>(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου</title>
 	<genre>College Radio</genre>
-	<location>http://162.13.25.174/cut-radio.mp3</location>
+	<location>http://n0c.radiojar.com/cut-radio</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
