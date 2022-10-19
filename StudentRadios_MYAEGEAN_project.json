@@ -2,7 +2,7 @@
   "project_admin":"My.Aegean.gr team - University of the Aegean",
   "host":"my.aegean.gr",
   "reference_origin_data":"http:\/\/my.aegean.gr\/web\/radio-map.html",
-  "generated_Time":"2022-04-20 13:59:18",
+  "generated_Time":"2022-10-19 12:11:39",
   "stations":[
     {
       "station_name":"(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος",
@@ -185,24 +185,6 @@
       ]
     },
     {
-      "station_name":"(SPAM radio) Πάντειο Πανεπιστήμιο",
-      "about_info":"Το Webradio λειτουργεί στο πλαίσιο του Ραδιοφωνικού εργαστηρίου,απευθύνεται σε ένα ακροατήριο του πανεπιστημιακού χώρου (φοιτητές και διδακτικό προσωπικό), όχι μόνον του Παντείου, αλλά όλων των πανεπιστημίων.\r\n<br>\r\nΕκπέμπει ζωντανές και ηχογραφημένες εκπομπές, οι οποίες θα παράγονται από τους φοιτητές του τμήματος Eπικοινωνίας, Μέσων και Πολιτισμού, στο πλαίσιο του εργαστηρίου, αλλά και μετά από αυτό για όσους θέλουν να συνεχίσουν την εξάσκησή τους.\r\n<br>\r\nOι φοιτητές που ορίζονται για την Συντακτική Επιτροπή, δηλαδή οι παραγωγοί, είναι οι μόνοι που έχουν πρόσβαση στη μετάδοση των εκπομπών. Συμμετέχουν συνεργάτες,- επίσης φοιτητές του τμήματος ή και από άλλα Πανεπιστήμια- οι οποίοι  προετοιμάζουν συνεντεύξεις, ρεπορτάζ και ανταποκρίσεις, που μεταδίδονται με ευθύνη της ομάδας των παραγωγών και της Συντακτικής Επιτροπής.\r\n<br>\r\nΤο Webradio αποτελεί ένα σημαντικό εργαλείο εξάσκησης των νέων φοιτητών, από τους οποίους στη συνέχεια θα επιλέγεται ένας αριθμός που θα πλαισιώνει τους παραγωγούς και στη συνέχεια θα τους αντικαθιστά.<br>\r\n",
-      "logotype":"http:\/\/my.aegean.gr\/web\/images\/radios\/spamradio_logo200.gif",
-      "website_URI":"http:\/\/www.spamradio.gr\/",
-      "stream_URI":"http:\/\/eco.onestreaming.com:8612\/;panteion.mp3",
-      "geo_coords_lat_lon_zoom":"37.95963,23.71928,16",
-      "city_name":"Athens",
-      "media_type":"mp3",
-      "streaming_technology":"ShoutCast",
-      "station_alias":"spamradio",
-      "geo_coords_lat_lon":[
-        {
-          "geo_coords_lat":"37.95963",
-          "geo_coords_lon":"23.71928"
-        }
-      ]
-    },
-    {
       "station_name":"(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη",
       "about_info":null,
       "logotype":"http:\/\/my.aegean.gr\/web\/images\/radios\/UnderGroundRadio_logo200.png",
@@ -361,6 +343,24 @@
         {
           "geo_coords_lat":"35.3502939",
           "geo_coords_lon":"24.449786"
+        }
+      ]
+    },
+    {
+      "station_name":"(Ράδιο Πάντειον) Πάντειο Πανεπιστήμιο - Αθήνα",
+      "about_info":"«Η φωνή του Παντείου Πανεπιστημίου Κοινωνικών και Πολιτικών Επιστημών»\r\n<br><br>Facebook: <a href=\"https:\/\/www.facebook.com\/radiopanteion\/\" target=\"_blank\" class=\"xtralink\">radiopanteion<\/a><br>\r\nInstagram: <a href=\"https:\/\/instagram.com\/radiopanteion\" target=\"_blank\" class=\"xtralink\">radiopanteion<\/a><br>",
+      "logotype":"http:\/\/my.aegean.gr\/web\/images\/radios\/radioPANTEION_logo200.jpg",
+      "website_URI":"https:\/\/radiopanteion.wordpress.com\/",
+      "stream_URI":"http:\/\/n07.radiojar.com\/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA",
+      "geo_coords_lat_lon_zoom":"37.9596043,23.7191811,15",
+      "city_name":"Athens",
+      "media_type":"mp3",
+      "streaming_technology":"IceCast2",
+      "station_alias":"radiopanteion",
+      "geo_coords_lat_lon":[
+        {
+          "geo_coords_lat":"37.9596043",
+          "geo_coords_lon":"23.7191811"
         }
       ]
     }
