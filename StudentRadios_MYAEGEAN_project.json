@@ -2,7 +2,7 @@
   "project_admin":"My.Aegean.gr team - University of the Aegean",
   "host":"my.aegean.gr",
   "reference_origin_data":"http:\/\/my.aegean.gr\/web\/radio-map.html",
-  "generated_Time":"2023-01-30 16:52:35",
+  "generated_Time":"2023-03-08 02:17:21",
   "stations":[
     {
       "station_name":"(Χώρος) Πανεπιστημίου Αιγαίου - Σάμος",
@@ -68,7 +68,7 @@
       "city_name":"Heraklion",
       "media_type":"mp3",
       "streaming_technology":"IceCast2",
-      "station_alias":"uoc",
+      "station_alias":"rastapank",
       "geo_coords_lat_lon":[
         {
           "geo_coords_lat":"35.308449",
@@ -153,7 +153,7 @@
       "about_info":"Ο Ραδιοφωνικός Σταθμός του Πανεπιστημίου Κύπρου, UCY Voice, ξεκίνησε τη λειτουργία του το 2006. Εκπέμπει από τη συχνότητα 95.2 fm και από την ιστοσελίδα www.ucyvoice.ucy.ac.cy.\r\n<br>\r\nO UCY Voice ανήκει στην κατηγορία 'Μικρός Τοπικός Σταθμός' και τα στούντιο του βρίσκονται στο Kέντρο Κοινωνικών Δραστηριοτήτων, στην Πανεπιστημιούπολη.\r\n<br>\r\nΟ UCY Voice ιδρύθηκε για να προβάλλει το έργο του ιδρύματος, να παρέχει πληροφόρηση στα μέλη της πανεπιστημιακής κοινότητας αλλά και για να δώσει 'φωνή' στους φοιτητές του Πανεπιστημίου Κύπρου.\r\n<br>\r\nΟ UCY Voice εκπέμπει σε 24ωρη βάση, και το πρόγραμμά του καλύπτει όλο το φάσμα της ενημέρωσης και της ψυχαγωγίας με μουσικές, ενημερωτικές, πολιτιστικές, αθλητικές κ.α. εκπομπές.\r\n<br>\r\nΠαραγωγοί του ραδιοσταθμού μπορούν να είναι οι φοιτητές, οι καθηγητές, οι απόφοιτοι καθώς και το διοικητικό προσωπικό του Πανεπιστημίου Κύπρου.\r\n<br>\r\nΟ Ραδιοφωνικός Σταθμός διοικείται από Διοικητικό Συμβούλιο.",
       "logotype":"http:\/\/my.aegean.gr\/web\/images\/radios\/UCYvoice_logo.jpg",
       "website_URI":"http:\/\/www.ucy.ac.cy\/ucyvoice\/",
-      "stream_URI":"http:\/\/108.163.223.242:8340\/;ucyvoice.mp3",
+      "stream_URI":"https:\/\/cp10.shoutcheap.com:18142\/;ucyvoice.mp3",
       "geo_coords_lat_lon_zoom":"35.145179,33.408995,16",
       "city_name":"Cyprus",
       "media_type":"mp3",
@@ -217,24 +217,6 @@
         {
           "geo_coords_lat":"40.844708",
           "geo_coords_lon":"25.876235"
-        }
-      ]
-    },
-    {
-      "station_name":"(eMMEis Radio) Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης",
-      "about_info":"Εθελοντικό ραδιόφωνο που επιμελούνται φοιτητές και απόφοιτοι του τμήματος Δημοσιογραφίας και Μ.Μ.Ε. του Α.Π.Θ.<br> <br>Link ακρόασης (Ustream): <a href=\"http:\/\/www.ustream.tv\/channel\/jewqFGzXvLE\" target=\"_blank\" class=\"xtralink\">ustream.tv\/channel\/jewqFGzXvLE<\/a><br>",
-      "logotype":"http:\/\/my.aegean.gr\/web\/images\/radios\/emmeisradio2_logo200_m.png",
-      "website_URI":"http:\/\/pacific.jour.auth.gr\/emmeis\/",
-      "stream_URI":"http:\/\/iphone-streaming.ustream.tv\/uhls\/jewqFGzXvLE\/streams\/live\/iphone\/playlist.m3u8",
-      "geo_coords_lat_lon_zoom":"40.629802,22.95508,16",
-      "city_name":"Thessaloniki",
-      "media_type":"_NOT_known_",
-      "streaming_technology":"_NOT_known_",
-      "station_alias":"emmeis",
-      "geo_coords_lat_lon":[
-        {
-          "geo_coords_lat":"40.629802",
-          "geo_coords_lon":"22.95508"
         }
       ]
     },
@@ -315,7 +297,7 @@
       "about_info":"Ο σταθμός ξεκίνησε τη λειτουργία του στα τέλη της δεκαετίας του `90 ως ζωντανό εργαστήριο για τους φοιτητές του τμήματος Ηλεκτρονικών Μηχανικών στο τότε ΤΕΙ Κρήτης με πρότυπη λειτουργία στα FM και τα δρώμενα της πόλης. Μετά από κάποια χρόνια παύσης, το 2017 μια ομάδα φοιτητών ανέλαβε την επαναλειτουργία του και με σταθερά βήματα συνεχίζουμε τη λειτουργία και ανάπτυξή του. O Rat FM διαθέτει εκπομπές και μουσικές για όλα τα γούστα και δίνει βάση στην υγιή αλληλεπίδραση εντός κι εκτός του φοιτητικού περιβάλλοντος, όπως και στην προβολή και στήριξη κάθε καλλιτέχνη ή μουσικού είδους.\r\n<br><br>\r\nFacebook: <a href=\"https:\/\/www.facebook.com\/RadioTeifm\" target=\"_blank\" class=\"xtralink\">RadioTeifm<\/a><br>\r\nInstagram: <a href=\"https:\/\/www.instagram.com\/rat_fm\" target=\"_blank\" class=\"xtralink\">rat_fm<\/a><br>\r\nΤηλέφωνο επικοινωνίας: <a href=\"tel:+306945197163\" target=\"_blank\" class=\"xtralink\">+30 6945197163<\/a><br>",
       "logotype":"http:\/\/my.aegean.gr\/web\/images\/radios\/RatFM_logo200_m.png",
       "website_URI":"http:\/\/ratfm.gr\/",
-      "stream_URI":"http:\/\/198.7.58.248:10078\/;ratfm.mp3",
+      "stream_URI":"https:\/\/entasistream.tuc.gr:8020\/radio.mp3",
       "geo_coords_lat_lon_zoom":"35.5190065, 24.0423892,15",
       "city_name":"Chania",
       "media_type":"mp3",
