@@ -3,43 +3,40 @@
 http://195.251.162.74:8000/stream
 
 #EXTINF:-1,(Escapula) Πανεπιστημίου Αιγαίου - Ρόδος
-http://radio.myaegean.gr/escapula.mp3
+http://radio.myaegean.gr:8000/escapula.mp3
 
 #EXTINF:-1,(Λόφος) Πανεπιστημίου Αιγαίου - Λέσβος
-http://radio.myaegean.gr/lofosradio.mp3
+http://radio.myaegean.gr:8000/lofosradio.mp3
 
 #EXTINF:-1,(DPSDradio) Πανεπιστημίου Αιγαίου - Σύρος
-http://radio.myaegean.gr/dpsdradio.mp3
+http://radio.myaegean.gr:8000/dpsdradio.mp3
 
 #EXTINF:-1,(UoC rastapank) Πανεπιστημίου Κρήτης - Ηράκλειο
 http://rs.radio.uoc.gr:8000/uoc_128.mp3
 
 #EXTINF:-1,(Ράδιο Ένταση) Πολυτεχνείου Κρήτης - Χανιά
-http://147.27.23.40:8000/;stream.mp3
+https://entasistream.tuc.gr:8000/main.mp3
 
 #EXTINF:-1,(Studio FM1) Ελληνικού Μεσογειακού Πανεπιστημίου - Ηράκλειο
 http://fm1.teicrete.gr:8000/live
 
 #EXTINF:-1,(RatFM) Ελληνικού Μεσογειακού Πανεπιστημίου - Χανιά
-http://198.7.58.248:10078/;ratfm.mp3
+https://homer.uniradios.gr/listen/ratfm/radio.mp3
 
 #EXTINF:-1,(ΜατζόΡε FM) Πανεπιστημίου Κρήτης - Ρέθυμνο
 http://rs.radio.uoc.gr:8000/matzore_64.mp3
 
-#EXTINF:-1,(UPFM) Πανεπιστημίου Πάτρας
-http://150.140.147.131:8000/;upfm.mp3
+#EXTINF:-1,(UPFM) Πανεπιστημίου Πατρών
+https://upfmradioserver.upatras.gr:8000/source
 
 #EXTINF:-1,(ΡαΣΠΙ) Πανεπιστημίου Ιωαννίνων
 http://195.130.117.45:8000/stream
 
 #EXTINF:-1,(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη
-http://192.99.35.215:5112/stream
+http://83.212.143.157:8000/radio.mp3
 
 #EXTINF:-1,(ROFA radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Αλεξανδρούπολη
 http://live.webhosting4u.gr:8013/live
-
-#EXTINF:-1,(eMMEis Radio) Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης
-http://iphone-streaming.ustream.tv/uhls/jewqFGzXvLE/streams/live/iphone/playlist.m3u8
 
 #EXTINF:-1,(yUTH Radio) Πανεπιστήμιο Θεσσαλίας
 http://airtime.yuth-radio.com:8000/yuthstream
@@ -54,7 +51,10 @@ http://webradio.eap.gr:3949/demostream
 http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA
 
 #EXTINF:-1,(UCY voice) Πανεπιστημίου Κύπρου
-http://108.163.223.242:8340/;ucyvoice.mp3
+https://cp10.shoutcheap.com:18142/;ucyvoice.mp3
 
 #EXTINF:-1,(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου
 http://n0c.radiojar.com/cut-radio
+
+#EXTINF:-1,(Pulsar Radio) Πανεπιστήμιο Πελοποννήσου - Πάτρα
+http://62.217.73.168:41999/pulsar

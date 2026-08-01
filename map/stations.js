@@ -1,4 +1,11 @@
-{
+/* GENERATED FILE - do not edit. Run  python build.py  instead.
+ *
+ * map/index.html fetches ../StudentRadios_MYAEGEAN_project.json when it is
+ * served over http(s). Browsers block that fetch under the file:// protocol,
+ * so the page falls back to this script, which assigns the same object.
+ * That is what lets the map be previewed by double-clicking index.html.
+ */
+window.STATION_DATA = {
   "project_admin": "My.Aegean.gr team - University of the Aegean",
   "host": "my.aegean.gr",
   "reference_origin_data": "http://my.aegean.gr/web/radio-map.html",
@@ -365,4 +372,4 @@
       ]
     }
   ]
-}
+};

@@ -20,7 +20,7 @@ https://entasistream.tuc.gr:8000/main.mp3
 #EXTINF:-1 radio="true" tvg-country="GR" group-title="Greek University Radios" tvg-logo="http://my.aegean.gr/web/images/radios/fm1-200x200.png",(Studio FM1) Ελληνικού Μεσογειακού Πανεπιστημίου - Ηράκλειο
 http://fm1.teicrete.gr:8000/live
 
-#EXTINF:-1 radio="true" tvg-country="GR" group-title="Greek University Radios" tvg-logo="http://my.aegean.gr/web/images/radios/RatFM_logo200_m.png",(RatFM) Ελληνικού Μεσογειακού Πανεπιστημίου - Χανιά
+#EXTINF:-1 radio="true" tvg-country="GR" group-title="Greek University Radios" tvg-logo="http://my.aegean.gr/web/images/radios/RatFM_logo2new_m.png",(RatFM) Ελληνικού Μεσογειακού Πανεπιστημίου - Χανιά
 https://homer.uniradios.gr/listen/ratfm/radio.mp3
 
 #EXTINF:-1 radio="true" tvg-country="GR" group-title="Greek University Radios" tvg-logo="http://my.aegean.gr/web/images/radios/MatzoRe-circle_logo200_m.png",(ΜατζόΡε FM) Πανεπιστημίου Κρήτης - Ρέθυμνο
@@ -48,7 +48,7 @@ http://195.130.80.64:8080/stream
 http://webradio.eap.gr:3949/demostream
 
 #EXTINF:-1 radio="true" tvg-country="GR" group-title="Greek University Radios" tvg-logo="http://my.aegean.gr/web/images/radios/radioPANTEION_logo200.jpg",(Ράδιο Πάντειον) Πάντειο Πανεπιστήμιο - Αθήνα
-http://n07.radiojar.com/ybz2g5nh5ehvv
+http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA
 
 #EXTINF:-1 radio="true" tvg-country="CY" group-title="Greek University Radios" tvg-logo="http://my.aegean.gr/web/images/radios/UCYvoice_logo.jpg",(UCY voice) Πανεπιστημίου Κύπρου
 https://cp10.shoutcheap.com:18142/;ucyvoice.mp3
@@ -56,5 +56,5 @@ https://cp10.shoutcheap.com:18142/;ucyvoice.mp3
 #EXTINF:-1 radio="true" tvg-country="CY" group-title="Greek University Radios" tvg-logo="http://my.aegean.gr/web/images/radios/cutradio_logo200.gif",(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου
 http://n0c.radiojar.com/cut-radio
 
-#EXTINF:-1 radio="true" tvg-country="GR" group-title="Greek University Radios",(Pulsar Radio) Πανεπιστήμιο Πελοποννήσου - Πάτρα
+#EXTINF:-1 radio="true" tvg-country="GR" group-title="Greek University Radios" tvg-logo="http://my.aegean.gr/web/images/radios/pulsar_logo200.jpg",(Pulsar Radio) Πανεπιστήμιο Πελοποννήσου - Πάτρα
 http://62.217.73.168:41999/pulsar

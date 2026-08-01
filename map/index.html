@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="utf-8" />
+<title>Χάρτης Φοιτητικών Ραδιοφωνικών Σταθμών — University Student Radios Map | MY.aegean.gr Community</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Φοιτητικοί - πανεπιστημιακοί ραδιοφωνικοί σταθμοί και ακρόαση ραδιοφώνου και μουσικής! Ο Κατάλογος περιέχει λίστα πληροφόρησης περί φοιτητικών ομάδων-συλλογικοτήτων που έχουν αναπτύξει ραδιοφωνικές δράσεις και εκπέμπουν ως επί το πλείστον στο διαδίκτυο (κάποιες και σε ραδιοσυχνότητες π.χ. FM/AM). Το myAegean είναι μια ανοιχτή συμμετοχική πρωτοβουλία φοιτητών του Πανεπιστημίου Αιγαίου." />
+<meta name="dc.title" content="Χάρτης Φοιτητικών Ραδιοφωνικών Σταθμών — University Student Radios Map | MY.aegean.gr Community" />
+<meta property="og:title" content="Χάρτης Φοιτητικών Ραδιοφωνικών Σταθμών — University Student Radios Map | MY.aegean.gr Community" />
+<meta property="og:description" content="Χάρτης των φοιτητικών και πανεπιστημιακών ραδιοφωνικών σταθμών σε Ελλάδα και Κύπρο, από την κοινότητα του My.Aegean.gr." />
+<meta name="twitter:title" content="Χάρτης Φοιτητικών Ραδιοφωνικών Σταθμών — University Student Radios Map | MY.aegean.gr Community" />
+<meta name="twitter:description" content="Χάρτης των φοιτητικών και πανεπιστημιακών ραδιοφωνικών σταθμών σε Ελλάδα και Κύπρο, από την κοινότητα του My.Aegean.gr." />
+<link rel="publisher" href="http://my.aegean.gr" title="MyAegean student initiative" />
+
+<!-- Leaflet CSS — cdnjs (Cloudflare edge), Subresource Integrity verified -->
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
+      integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+html, body, #map-canvas { margin: 0; padding: 0; height: 100%; }
+body { background: #fff; }
+
+#StudentRadios__map_control {
+  position: fixed; right: 0; margin-right: 10px; margin-left: auto;
+  overflow: hidden; width: 60%; margin-top: 10px; padding: 0; height: 64px;
+  font-size: 12px; line-height: 130%; z-index: 2001002; display: block; text-align: right;
+}
+#StudentRadios__map_control .hint {
+  margin: 0 10px; color: gray; font-size: 11px;
+  font-family: 'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande','Trebuchet MS',Trebuchet,'Liberation Sans','Roboto',sans-serif;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.altbutinfo .button {
+  display: inline-block; background: #eee;
+  border: 1px solid #a1a1a1; padding: 0 2px; margin: 2px;
+  font: bold 1em/2em Arial, Helvetica; text-decoration: none; color: #333;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8); border-radius: 2px;
+  box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+  cursor: pointer;
+}
+.altbutinfo .button:hover  { background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100%); }
+.altbutinfo .button:active { box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset; position: relative; top: 1px; }
+.altbutinfo .button:focus  { outline: 0; background: #fafafa; }
+
+#info_content img.logo { max-width: 100px; height: auto; border: 0; margin: 2px 1px; }
+#info_content .stname  { display: block; font: bold 12px/1.35 Arial, Helvetica, sans-serif; color: #333; margin: 2px 0 4px; }
+#info_content .city    { display: block; font: 11px/1.3 Arial, Helvetica, sans-serif; color: #777; margin-bottom: 4px; }
+
+/* Leaflet 1.8+ injects a national flag SVG into its attribution link. Hidden here to
+   keep a university map politically neutral. The Leaflet, OSM and CARTO attribution
+   TEXT and links are untouched, so the licence terms are still met in full. */
+.leaflet-attribution-flag { display: none !important; }
+
+@media (max-width: 620px) {
+  #StudentRadios__map_control { width: 92%; }
+  #StudentRadios__map_control .btxt { display: none; }
+}
+</style>
+
+<!-- Leaflet JS — cdnjs (Cloudflare edge), Subresource Integrity verified -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"
+        integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+<div id="StudentRadios__map_control" class="StudentRadios__map_logo altbutinfo">
+  <em class="hint">(η λίστα εμπλουτίζεται σταδιακά)</em>
+  <button type="button" id="resetBtn" class="button"
+          title="Επαναφορά χάρτη" aria-label="Επαναφορά χάρτη">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 24 28" aria-hidden="true" focusable="false" style="display:inline-block;margin:0 4px;vertical-align:middle;"><path d="M23.609 16.5c0 0.031 0 0.078-0.016 0.109-1.328 5.531-5.891 9.391-11.656 9.391-3.047 0-6-1.203-8.219-3.313l-2.016 2.016c-0.187 0.187-0.438 0.297-0.703 0.297-0.547 0-1-0.453-1-1v-7c0-0.547 0.453-1 1-1h7c0.547 0 1 0.453 1 1 0 0.266-0.109 0.516-0.297 0.703l-2.141 2.141c1.469 1.375 3.422 2.156 5.437 2.156 2.781 0 5.359-1.437 6.813-3.813 0.375-0.609 0.562-1.203 0.828-1.828 0.078-0.219 0.234-0.359 0.469-0.359h3c0.281 0 0.5 0.234 0.5 0.5zM24 4v7c0 0.547-0.453 1-1 1h-7c-0.547 0-1-0.453-1-1 0-0.266 0.109-0.516 0.297-0.703l2.156-2.156c-1.484-1.375-3.437-2.141-5.453-2.141-2.781 0-5.359 1.437-6.813 3.813-0.375 0.609-0.562 1.203-0.828 1.828-0.078 0.219-0.234 0.359-0.469 0.359h-3.109c-0.281 0-0.5-0.234-0.5-0.5v-0.109c1.344-5.547 5.953-9.391 11.719-9.391 3.063 0 6.047 1.219 8.266 3.313l2.031-2.016c0.187-0.187 0.438-0.297 0.703-0.297 0.547 0 1 0.453 1 1z"></path></svg><span class="btxt">Επαναφορά χάρτη&nbsp;</span>
+  </button>
+</div>
+
+<div id="map-canvas"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  // --- configuration ------------------------------------------------------
+  var DATA_URL        = "../StudentRadios_MYAEGEAN_project.json";
+  var PLAYER_BASE     = "http://my.aegean.gr/radio/player/";
+  var MAP_CENTER      = [38.12591462924157, 25.718994140625];
+  var MAP_ZOOM        = 5;
+  var CLICK_ZOOM      = 16;
+  var CTRL_BAR_OFFSET = 80;   // px — shifts the marker below the viewport centre,
+                              //      clearing the fixed control bar at the top
+
+  // 24x39 orange radio pin — the same base64 PNG the map has used since 2013
+  var PIN = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAnCAMAAAAihXiyAAAAYFBMVEVMaXH/ZgD/ZgD/ZgD/ZgD/ZQD/ZQD/aAb/ZgD/ZgD/ZgD/ZgD/ZgD/ZgD/ZgD/k0r/YgD/ZgD/////dhr/7eD/+/j/gS3/xp//9vD/mlb/XAD/0LD/3cX/rnf/kkn/uosdTg9/AAAAEHRSTlMA5W6pEdmR/Srvf0NTx7fsb7a5VAAAAU9JREFUeF5t0AmOgzAMQFFDCU5aYOys7L3/LQenhZlIPAkJ+IoDgZN+9pVRQ91AQbeqMohoqv5/auqfLRLxh+qu9w/a7Jh2/DZ8fsODiWMawzo5Esyf8mRiJnKbt+sWmeVRpmlDMS3LktJqrfXH3cSsGoCWSd6IEIKV6Ihr0IrJ222fLmvYkQdozRHGOM80f72t32cFPR4h7DiliJlbrJ1mA5UE69dwXJm3EhBMDnZ5rzbzydsUCUHl8M4jxBuX0REbeMjmIe4+Tjn4dZRQQVflEJOTkEnoAQYZtTiM6xUiyWm9kHyeYE/BkdFyuLT5cBhPCbkFkCXsCsh5QT7GkuwgGsWlvoGPjgv4gtOjCC1cdMV/VAN/6ttBor/CAwov5A+jodRyJr9Q0uba+XZJDXC7RGm4FH/Zwo3XzSedZznArZbr+9Cxvg96aO5D0/0LvwabJuJrdpiVAAAAAElFTkSuQmCC";
+
+  // --- helpers ------------------------------------------------------------
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+
+  // stations.js is the offline mirror of the JSON, generated by build.py.
+  // It is only pulled in when the JSON cannot be fetched, so a normal
+  // http(s) visitor never downloads the data twice.
+  function loadMirror() {
+    return new Promise(function (resolve) {
+      if (window.STATION_DATA) { return resolve(window.STATION_DATA); }
+      var s = document.createElement("script");
+      s.src = "stations.js";
+      s.onload  = function () { resolve(window.STATION_DATA || null); };
+      s.onerror = function () { resolve(null); };
+      document.head.appendChild(s);
+    });
+  }
+
+  function loadData() {
+    // Served over http(s): read the JSON, the single source of truth.
+    // Opened as a local file: browsers block that fetch under file://, so we
+    // fall back to stations.js, which build.py generates from the same JSON.
+    if (location.protocol === "file:" || !window.fetch) { return loadMirror(); }
+    return fetch(DATA_URL, { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) { throw new Error("HTTP " + r.status); } return r.json(); })
+      .catch(loadMirror);
+  }
+
+  // --- map ----------------------------------------------------------------
+  var map = L.map("map-canvas", { center: MAP_CENTER, zoom: MAP_ZOOM });
+
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: "abcd",
+    maxZoom: 19
+  }).addTo(map);
+
+  var radioIcon = L.icon({
+    iconUrl: PIN, iconSize: [24, 39], iconAnchor: [12, 39], popupAnchor: [0, -40]
+  });
+
+  function popupHtml(st) {
+    var name   = esc(st.station_name);
+    var site   = esc(st.website_URI || "#");
+    var logo   = st.logotype ? esc(st.logotype) : "";
+    var player = PLAYER_BASE + encodeURIComponent(st.station_alias || "");
+    var city   = st.city_name ? '<span class="city">' + esc(st.city_name) + "</span>" : "";
+
+    var img = logo
+      ? '<a href="' + site + '" title="' + name + '" target="_blank" rel="noopener nofollow">' +
+          '<img class="logo" src="' + logo + '" alt="' + name + '" title="' + name + '" ' +
+          'onerror="this.style.display=\'none\'" /></a>'
+      : "";
+
+    return '<div id="info_content" class="altbutinfo">' + img +
+      '<a class="stname" href="' + site + '" target="_blank" rel="noopener nofollow">' + name + "</a>" +
+      city +
+      '<a class="button" style="font-size:80%;width:90px;" href="' + esc(player) + '" ' +
+        'title="' + name + '" target="_blank" rel="noopener nofollow">' +
+        '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 1792 1792" aria-hidden="true" focusable="false" style="display:inline-block;margin:0 4px;vertical-align:middle;"><path d="M1728 886q0 166-60 314l-20 49-185 33q-22 83-90.5 136.5t-156.5 53.5v32q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-576q0-14 9-23t23-9h64q14 0 23 9t9 23v32q71 0 130 35.5t93 95.5l68-12q29-95 29-193 0-148-88-279t-236.5-209-315.5-78-315.5 78-236.5 209-88 279q0 98 29 193l68 12q34-60 93-95.5t130-35.5v-32q0-14 9-23t23-9h64q14 0 23 9t9 23v576q0 14-9 23t-23 9h-64q-14 0-23-9t-9-23v-32q-88 0-156.5-53.5t-90.5-136.5l-185-33-20-49q-60-148-60-314 0-151 67-291t179-242.5 266-163.5 320-61 320 61 266 163.5 179 242.5 67 291z"/></svg>WebPLAYER</a></div>';
+  }
+
+  function addStation(st) {
+    var lat, lon;
+    if (st.geo_coords_lat_lon && st.geo_coords_lat_lon[0]) {
+      lat = parseFloat(st.geo_coords_lat_lon[0].geo_coords_lat);
+      lon = parseFloat(st.geo_coords_lat_lon[0].geo_coords_lon);
+    } else if (st.geo_coords_lat_lon_zoom) {
+      var p = String(st.geo_coords_lat_lon_zoom).split(",");
+      lat = parseFloat(p[0]); lon = parseFloat(p[1]);
+    }
+    if (isNaN(lat) || isNaN(lon)) { return null; }
+
+    var marker = L.marker([lat, lon], { icon: radioIcon, title: st.station_name }).addTo(map);
+
+    // autoPan is off on purpose. The click handler below runs flyTo AFTER the
+    // popup opens, which would cancel any pan Leaflet had just computed and
+    // could leave the popup's close button underneath the fixed control bar.
+    // We do the correction ourselves, once the movement has settled.
+    marker.bindPopup(popupHtml(st), { maxWidth: 220, autoPan: false });
+
+    marker.on("popupopen", function () {
+      var popup = marker.getPopup();
+      // Leaflet's close button fires click without stopPropagation, so the click
+      // leaks through to the marker and immediately re-opens the popup.
+      if (popup && popup._closeButton) {
+        L.DomEvent.on(popup._closeButton, "click", L.DomEvent.stopPropagation);
+      }
+      map.once("moveend", function () { nudgeIntoView(popup); });
+    });
+
+    marker.on("click", function () {
+      var pt  = map.project(marker.getLatLng(), CLICK_ZOOM);
+      var adj = map.unproject(L.point(pt.x, pt.y - CTRL_BAR_OFFSET), CLICK_ZOOM);
+      map.flyTo(adj, CLICK_ZOOM);
+    });
+
+    return marker;
+  }
+
+  // Keeps the popup (and above all its × button) clear of the fixed top bar.
+  function nudgeIntoView(popup) {
+    if (!popup || !popup._container) { return; }
+    var bar      = document.getElementById("StudentRadios__map_control");
+    var obstacle = (bar ? bar.getBoundingClientRect().bottom : 0) + 8;
+    var top      = popup._container.getBoundingClientRect().top;
+    var missing  = obstacle - top;
+    if (missing > 0) { map.panBy([0, -missing], { animate: true }); }
+  }
+
+  function resetView() {
+    map.closePopup();                       // otherwise a card is left floating
+    map.setView(MAP_CENTER, MAP_ZOOM);      // over a map it no longer points at
+  }
+  document.getElementById("resetBtn").addEventListener("click", resetView);
+
+  // --- go -----------------------------------------------------------------
+  loadData().then(function (data) {
+    if (!data || !data.stations) {
+      console.error("Station data could not be loaded.");
+      return;
+    }
+    var added = 0;
+    for (var i = 0; i < data.stations.length; i++) {
+      if (addStation(data.stations[i])) { added++; }
+    }
+    console.log("Student radios on the map: " + added + " of " + data.stations.length +
+                " (snapshot " + (data.generated_Time || "?") + ")");
+  });
+})();
+</script>
+</body>
+</html>

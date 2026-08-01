@@ -12,7 +12,7 @@
 <entry type="iradio">
 	<title>(Escapula) Πανεπιστημίου Αιγαίου - Ρόδος</title>
 	<genre>College Radio</genre>
-	<location>http://radio.myaegean.gr/escapula.mp3</location>
+	<location>http://radio.myaegean.gr:8000/escapula.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -20,7 +20,7 @@
 <entry type="iradio">
 	<title>(Λόφος) Πανεπιστημίου Αιγαίου - Λέσβος</title>
 	<genre>College Radio</genre>
-	<location>http://radio.myaegean.gr/lofosradio.mp3</location>
+	<location>http://radio.myaegean.gr:8000/lofosradio.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -28,7 +28,7 @@
 <entry type="iradio">
 	<title>(DPSDradio) Πανεπιστημίου Αιγαίου - Σύρος</title>
 	<genre>College Radio</genre>
-	<location>http://radio.myaegean.gr/dpsdradio.mp3</location>
+	<location>http://radio.myaegean.gr:8000/dpsdradio.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -44,7 +44,7 @@
 <entry type="iradio">
 	<title>(Ράδιο Ένταση) Πολυτεχνείου Κρήτης - Χανιά</title>
 	<genre>College Radio</genre>
-	<location>http://147.27.23.40:8000/;stream.mp3</location>
+	<location>https://entasistream.tuc.gr:8000/main.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -60,7 +60,7 @@
 <entry type="iradio">
 	<title>(RatFM) Ελληνικού Μεσογειακού Πανεπιστημίου - Χανιά</title>
 	<genre>College Radio</genre>
-	<location>http://198.7.58.248:10078/;ratfm.mp3</location>
+	<location>https://homer.uniradios.gr/listen/ratfm/radio.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -74,9 +74,9 @@
   
 
 <entry type="iradio">
-	<title>(UPFM) Πανεπιστημίου Πάτρας</title>
+	<title>(UPFM) Πανεπιστημίου Πατρών</title>
 	<genre>College Radio</genre>
-	<location>http://150.140.147.131:8000/;upfm.mp3</location>
+	<location>https://upfmradioserver.upatras.gr:8000/source</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -92,7 +92,7 @@
 <entry type="iradio">
 	<title>(UnderGround radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Ξάνθη</title>
 	<genre>College Radio</genre>
-	<location>http://192.99.35.215:5112/stream</location>
+	<location>http://83.212.143.157:8000/radio.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -101,14 +101,6 @@
 	<title>(ROFA radio) Δημοκρίτειο Πανεπιστήμιο Θράκης - Αλεξανδρούπολη</title>
 	<genre>College Radio</genre>
 	<location>http://live.webhosting4u.gr:8013/live</location>
-	<media-type>application/octet-stream</media-type>
-  </entry>
-  
-
-<entry type="iradio">
-	<title>(eMMEis Radio) Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης</title>
-	<genre>College Radio</genre>
-	<location>http://iphone-streaming.ustream.tv/uhls/jewqFGzXvLE/streams/live/iphone/playlist.m3u8</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -140,7 +132,7 @@
 <entry type="iradio">
 	<title>(Ράδιο Πάντειον) Πάντειο Πανεπιστήμιο - Αθήνα</title>
 	<genre>College Radio</genre>
-	<location>http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA</location>
+	<location>http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&amp;rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -148,7 +140,7 @@
 <entry type="iradio">
 	<title>(UCY voice) Πανεπιστημίου Κύπρου</title>
 	<genre>College Radio</genre>
-	<location>http://108.163.223.242:8340/;ucyvoice.mp3</location>
+	<location>https://cp10.shoutcheap.com:18142/;ucyvoice.mp3</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   
@@ -157,6 +149,14 @@
 	<title>(CUT radio) Τεχνολογικού Πανεπιστημίου Κύπρου</title>
 	<genre>College Radio</genre>
 	<location>http://n0c.radiojar.com/cut-radio</location>
+	<media-type>application/octet-stream</media-type>
+  </entry>
+  
+
+<entry type="iradio">
+	<title>(Pulsar Radio) Πανεπιστήμιο Πελοποννήσου - Πάτρα</title>
+	<genre>College Radio</genre>
+	<location>http://62.217.73.168:41999/pulsar</location>
 	<media-type>application/octet-stream</media-type>
   </entry>
   

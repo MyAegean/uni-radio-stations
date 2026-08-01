@@ -260,7 +260,7 @@
       "StudentRadio"
     ],
     "sources": [
-      "http://n07.radiojar.com/ybz2g5nh5ehvv"
+      "http://n07.radiojar.com/ybz2g5nh5ehvv?rj-ttl=5&rj-tok=AAABf5_0pqgAi4UNDFWiVnPwHA"
     ]
   },
   {
@@ -296,7 +296,7 @@
   {
     "id": "user:070ef9de-8c84-5c1f-83c6-f9b41503007b",
     "title": "(Pulsar Radio) Πανεπιστήμιο Πελοποννήσου - Πάτρα",
-    "websiteUrl": "",
+    "websiteUrl": "https://pulsar-radio.ece.uop.gr/",
     "tags": [
       "Greece",
       "University",

@@ -1,0 +1,271 @@
+{
+  "xoros": {
+    "screamer_id": "user:ad9cd23b-1a5b-5ffb-801c-414b2be49309",
+    "screamer_websiteUrl": "http://xoros.samos.aegean.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Ambient",
+      "Rock",
+      "Pop",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "escapula": {
+    "screamer_id": "user:6c9e74b7-bd04-55c6-8881-a342f1a045da",
+    "screamer_websiteUrl": "http://my.aegean.gr/radio/Escapula",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "lofos": {
+    "screamer_id": "user:4dd29b06-a14c-5e5d-a9b9-301675413fb5",
+    "screamer_websiteUrl": "http://my.aegean.gr/radio/Lofos",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "dpsdradio": {
+    "screamer_id": "user:02b651ae-b939-510b-a89b-11ab0080ecde",
+    "screamer_websiteUrl": "http://my.aegean.gr/radio/DPSDradio",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "rastapank": {
+    "screamer_id": "user:818452e7-c493-5339-bb83-848469a7b39f",
+    "screamer_websiteUrl": "http://rastapank.radio.uoc.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Rock",
+      "Alternative",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "radioentasi": {
+    "screamer_id": "user:3d4aa84c-0c1d-54bd-9ea5-21aeab2ca71e",
+    "screamer_websiteUrl": "http://www.entasiradio.tuc.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Rock",
+      "Dance",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "studiofm1": {
+    "screamer_id": "user:24208ea8-da87-50fe-a24d-3089f2278660",
+    "screamer_websiteUrl": "http://fm1.hmu.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Pop",
+      "Rock",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "ratfm": {
+    "screamer_id": "user:5b489347-a233-525b-b6b9-e52ff9903b61",
+    "screamer_websiteUrl": "http://ratfm.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "matzore": {
+    "screamer_id": "user:6e1d87c8-056c-56a8-ae54-a336488cfbeb",
+    "screamer_websiteUrl": "http://matzore.radio.uoc.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "upfm": {
+    "screamer_id": "user:09eb0fff-9901-5e44-9449-8a344dad37dc",
+    "screamer_websiteUrl": "http://upfm.upatras.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Pop",
+      "Dance",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "raspi": {
+    "screamer_id": "user:d18f11eb-4d23-5534-8bb9-5059233f6498",
+    "screamer_websiteUrl": "http://raspistation.com/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Alternative",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "undergroundradio": {
+    "screamer_id": "user:1d46a65e-5c19-51e6-bc08-04e9878185a1",
+    "screamer_websiteUrl": "http://www.undergroundradio.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Rock",
+      "Alternative",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "rofa": {
+    "screamer_id": "user:69db4057-b288-56d7-9e93-429ea4561174",
+    "screamer_websiteUrl": "http://rofaleks.blogspot.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "yuth": {
+    "screamer_id": "user:62da5658-170a-58dc-82d5-0124018490d3",
+    "screamer_websiteUrl": "http://yuth-radio.com/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "justradio": {
+    "screamer_id": "user:d9cde586-125a-5b65-b669-5627974c6fad",
+    "screamer_websiteUrl": "http://just-radio.eu/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "eapwebradio": {
+    "screamer_id": "user:35348968-cde8-5925-931b-bce9398709cc",
+    "screamer_websiteUrl": "http://webradio.eap.gr/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Talk",
+      "Culture",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "radiopanteion": {
+    "screamer_id": "user:41574f0d-6864-5acf-b4e5-8b8e6d8b45b2",
+    "screamer_websiteUrl": "https://radiopanteion.wordpress.com/",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Talk",
+      "Social",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  },
+  "ucyvoice": {
+    "screamer_id": "user:78d23801-afdb-5115-ad25-649bfe78c7f4",
+    "screamer_websiteUrl": "http://www.ucy.ac.cy/ucyvoice/",
+    "screamer_tags": [
+      "Cyprus",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "CY",
+    "kodi_group": "Greek University Radios"
+  },
+  "cutradio": {
+    "screamer_id": "user:09e609f4-e191-5de8-9846-a15e52f36c1f",
+    "screamer_websiteUrl": "https://cut.ac.cy/cut-radio/",
+    "screamer_tags": [
+      "Cyprus",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "CY",
+    "kodi_group": "Greek University Radios"
+  },
+  "pulsar": {
+    "screamer_id": "user:070ef9de-8c84-5c1f-83c6-f9b41503007b",
+    "screamer_websiteUrl": "",
+    "screamer_tags": [
+      "Greece",
+      "University",
+      "Various",
+      "College",
+      "StudentRadio"
+    ],
+    "kodi_country": "GR",
+    "kodi_group": "Greek University Radios"
+  }
+}
