@@ -36,7 +36,8 @@ behind it has.
 | Generation | Stack | Fate |
 |---|---|---|
 | 1st, until July 2026 | Google Maps JavaScript API v3, loaded with an API key | Replaced |
-| 2nd, since July 2026 | Leaflet + CARTO, no key | Current |
+| 2nd, July–Sept 2026 | Leaflet + CARTO, no key | Broke in Sept 2026 — CARTO started requiring a key |
+| 2nd, since Oct 2026 | Leaflet + OpenStreetMap tiles, no key (optional CARTO key) | Current |
 
 The rewrite was not cosmetic. A Google Maps page stops working the moment its key
 is withdrawn, restricted or unbilled, and it fails silently — a blank rectangle,
@@ -44,7 +45,7 @@ no error a visitor can act on. That is exactly what happened to this project's
 other map — the one of the university's campuses, at
 [MyAegean/map-aegeanuni](https://github.com/MyAegean/map-aegeanuni) — which sat
 blank for years. Rather than wait for the same thing here, the radio map was
-moved onto a stack that has nothing to expire.
+moved onto a stack with no key to expire. (The tile provider then changed its terms anyway — see the basemap note below.)
 
 A copy of the application now lives in this repository, under `map/`, so that the
 map can be read, forked and deployed by anyone — not only by whoever has access
@@ -56,10 +57,26 @@ No API key. No account. No server-side execution. Nothing to build before you ca
 publish it — you deploy by copying files onto any static host.
 
 The map is [Leaflet](https://leafletjs.com/) 1.9.4, loaded from cdnjs with
-Subresource Integrity, over [CARTO Positron](https://carto.com/basemaps/) tiles.
-Both are free for this kind of use and neither asks for a key. That constraint is
-the whole point of this generation: the previous one died quietly when its key
+Subresource Integrity, over the standard
+[OpenStreetMap](https://www.openstreetmap.org/) tiles, toned down with a CSS
+filter so the markers stay in front. No key, no account. That constraint is the
+whole point of this generation: the previous one died quietly when its key
 lapsed, and we would rather it did not happen again.
+
+**Basemap change, October 2026.** Until then the map used
+[CARTO Positron](https://carto.com/basemaps/) tiles, which were also keyless. In
+late September 2026 CARTO began requiring an API key and now answers keyless
+requests with an "API KEY REQUIRED" watermark tile, which is what visitors saw.
+The tile layer now has a switch, `CARTO_KEY`, near the top of the map code:
+
+- left empty (the default, and what this repository ships): OpenStreetMap tiles;
+- set to a key from [carto.com/basemaps/apikey](https://carto.com/basemaps/apikey)
+  (free for education, research and non-profits): Positron comes back.
+
+Do not commit a key to this repository; set it only on the deployed copy.
+OpenStreetMap's tiles are a donated service with a
+[usage policy](https://operations.osmfoundation.org/policies/tiles/): fine for a
+low-traffic page like this one, not for bulk downloading or offline caching.
 
 <p><img src="StudentRadios_map-popup_leaflet_2026.png" alt="A station card on the map" width="560"></p>
 
@@ -144,9 +161,9 @@ Screenshots of the earlier, Google Maps generation are kept in this repository a
 
 ### Attribution
 
-Map tiles © [CARTO](https://carto.com/attributions), map data ©
-[OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, released
-under the ODbL. Leaflet is BSD-2-Clause licensed.
+Map tiles and map data © [OpenStreetMap](https://www.openstreetmap.org/copyright)
+contributors, released under the ODbL (tiles © [CARTO](https://carto.com/attributions)
+when a CARTO key is set). Leaflet is BSD-2-Clause licensed.
 
 Leaflet 1.8 and later inject a national flag into the attribution control. This
 page hides that graphic with CSS, purely to keep a university map politically
