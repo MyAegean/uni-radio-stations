@@ -59,6 +59,8 @@ body { background: #fff; }
   #StudentRadios__map_control { width: 92%; }
   #StudentRadios__map_control .btxt { display: none; }
 }
+  /* OSM fallback basemap: toned down so the markers stay the focus (close to the old Positron look) */
+  .basemap-osm { filter: grayscale(85%) brightness(1.06) contrast(0.9); }
 </style>
 
 <!-- Leaflet JS — cdnjs (Cloudflare edge), Subresource Integrity verified -->
@@ -129,11 +131,25 @@ body { background: #fff; }
   // --- map ----------------------------------------------------------------
   var map = L.map("map-canvas", { center: MAP_CENTER, zoom: MAP_ZOOM });
 
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: "abcd",
-    maxZoom: 19
-  }).addTo(map);
+  // Basemap tiles. Since late Sept 2026 CARTO serves an "API KEY REQUIRED"
+  // watermark to keyless requests. Free key (education / non-profit, 5M req/month):
+  // https://carto.com/basemaps/apikey  -> paste it into CARTO_KEY to restore Positron.
+  // Left empty, the map uses the standard OpenStreetMap tiles (no key, no account).
+  var CARTO_KEY = '';
+  var OSM_ATTR = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  if (CARTO_KEY) {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=' + encodeURIComponent(CARTO_KEY), {
+      attribution: OSM_ATTR + ' &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+  } else {
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: OSM_ATTR,
+      className: 'basemap-osm',
+      maxZoom: 19
+    }).addTo(map);
+  }
 
   var radioIcon = L.icon({
     iconUrl: PIN, iconSize: [24, 39], iconAnchor: [12, 39], popupAnchor: [0, -40]
